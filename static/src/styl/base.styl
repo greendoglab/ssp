@@ -1,0 +1,69 @@
+padding_block = 1em
+padding_element = .3em .6em
+
+
+background_main = #ecf0f1
+color_text = #353535
+color_link = #ff3400
+
+inline_middle()
+    display inline-block
+    vertical-align middle
+
+inline_top()
+    display inline-block
+    vertical-align top
+
+transition(p, d, t)
+    transition-property: p;
+    transition-duration: d;
+    transition-timing-function: t;
+
+body
+    font: 150%/140% Georgia;
+    padding 0
+    margin 0
+    color text_color
+    background background_main
+
+h1, h2, h3, h4, h5
+    line-height 1
+    font-size 1.6em
+    font-family Helvetica, Arial, Tahoma
+
+a
+    color link_color
+    transition(all, 0.1s, ease)
+    &:hover
+        text-decoration none
+
+img
+    max-width 100%
+    display block
+    text-align center
+    margin auto
+
+.if
+    position relative
+    padding-bottom 56.25%
+    padding-top 30px
+    height 0
+    overflow hidden
+    iframe
+    object
+    embed
+        position absolute
+        top 0
+
+input
+    &:focus
+        outline none
+
+// .row
+//     display table
+
+// .col
+//     display table-cell
+//     vertical-align top
+//     &.half
+//         width 50%
