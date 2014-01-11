@@ -1,30 +1,58 @@
-// .main_header
-//     position fixed
-//     top 0
-//     .top_nav
-//         margin 0
-//         padding 0
-//         li
-//             display inline-block
+.container
+    width 920px
+    margin auto
 
-// .main_container
-//     width 80%
-//     margin auto
+.site-logo
+    width 254px
+    height 90px
+    background url(../images/logo.jpg) no-repeat
+    position absolute
+    top -15px
+    left 0
 
-// .main_aside
-//     width 320px
+.site-header
+    padding 32px 0 34px 0
+    > .container
+        position relative
+    .gray_decor
+        background #e0e0df
+    nav
+        text-align right
+    ul
+        margin 0
+        padding 0
+        li
+            inline_middle()
+    .social
+        padding-right 40px
+        img
+            max-width 16px
+            max-height 16px
+    .site-nav
+        a
+            inline_middle()
+            margin-left 20px
+            color #5a5f61
+            text-decoration none
+            &:hover
+                text-decoration underline
 
-// .container
-//     box-sizing border-box
-//     padding 1em .5em
+.site-showcase
+    height 196px
+    text-align center
 
-// .bricks
-//     overflow hidden
+.site-content
+    padding-top 30px
+    .container
+        overflow hidden
+        .search_travel_openings
+            width 275px
+            margin-left 56px
+            float left
+        .featured_assignment
+            width 288px
+            margin-left 70px
+            float left
 
-// .post
-//     &.portrait
-//         width 60%
-//         float left
-//     &.landscape
-//         width 40%
-//         float left
+.site-footer
+    background #8dc640
