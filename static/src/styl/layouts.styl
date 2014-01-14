@@ -82,6 +82,8 @@
 .site-content
     padding-top 30px
     .container
+        &.single
+            width 840px
         .search_travel_openings
             width 330px
             margin-left 126px
@@ -223,3 +225,52 @@
             img
                 max-width 55%
                 margin-top .8em
+
+.single-content
+    // padding-left 40px
+    padding-right 90px
+    p
+        margin-bottom 2em
+    .links
+        a
+            padding .2em .4em
+
+.sidebar
+    width 180px
+    .sidebar_block
+        box-sizing border-box
+        padding .7em
+        position relative
+        &:before
+            position absolute
+            top 0
+            left 0
+        margin-bottom 2em
+        font-size .8em
+        line-height 1.4
+        &.blue
+            background #00b1af
+            color #fff
+        &.gray
+            background #e0e0df
+        &.icon-important
+            &:before
+                content url(../images/s-icon-important.png)
+        &.icon-comment
+            p
+                text-align center
+            &:before
+                content url(../images/s-icon-comments.png)
+        &.icon-mail
+            .sign_up
+                margin-top .8em
+                text-align right
+                .green_link
+                    padding .2em .4em
+            input
+                padding .3em
+                position relative
+                left -4px
+                width 100%
+            &:before
+                content url(../images/s-icon-mail.png)

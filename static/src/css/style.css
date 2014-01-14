@@ -11,6 +11,8 @@ input:focus{outline:none}
 .blue_link{background:#00b1af}
 .green_link{background:#8dc640}
 .green_button{background:#8dc640}
+.row{display:table;width:100%}
+.col{display:table-cell}
 .container{width:920px;margin:auto}
 .site-logo{width:254px;height:90px;background:url("../images/logo.jpg") no-repeat;position:absolute;top:-15px;left:0}
 .site-header{padding:32px 0 34px 0;}
@@ -35,6 +37,7 @@ input:focus{outline:none}
 .site-showcase .sc-block.playback .box{width:350px;margin-left:-40px;}
 .site-showcase .sc-block.playback .box .playback_decor{position:absolute;top:50%;left:50%;width:42px;height:42px;margin:-21px 0 0 -21px;background:url("../images/play.png") no-repeat}
 .site-content{padding-top:30px;}
+.site-content .container.single{width:840px}
 .site-content .container .search_travel_openings{width:330px;margin-left:126px;float:left;}
 .site-content .container .search_travel_openings .gray_title{clear:both}
 .site-content .container .search_travel_openings .links{width:98px;float:left;}
@@ -72,3 +75,18 @@ input:focus{outline:none}
 .site-footer .footer-block{float:left;width:25%;}
 .site-footer .footer-block .foot-text{font-size:.78em;line-height:1.4}
 .site-footer .footer-block.seal img{max-width:55%;margin-top:.8em}
+.single-content{padding-right:90px;}
+.single-content p{margin-bottom:2em}
+.single-content .links a{padding:.2em .4em}
+.sidebar{width:180px;}
+.sidebar .sidebar_block{box-sizing:border-box;padding:.7em;position:relative;margin-bottom:2em;font-size:.8em;line-height:1.4;}
+.sidebar .sidebar_block:before{position:absolute;top:0;left:0}
+.sidebar .sidebar_block.blue{background:#00b1af;color:#fff}
+.sidebar .sidebar_block.gray{background:#e0e0df}
+.sidebar .sidebar_block.icon-important:before{content:url("../images/s-icon-important.png")}
+.sidebar .sidebar_block.icon-comment p{text-align:center}
+.sidebar .sidebar_block.icon-comment:before{content:url("../images/s-icon-comments.png")}
+.sidebar .sidebar_block.icon-mail .sign_up{margin-top:.8em;text-align:right;}
+.sidebar .sidebar_block.icon-mail .sign_up .green_link{padding:.2em .4em}
+.sidebar .sidebar_block.icon-mail input{padding:.3em;position:relative;left:-4px;width:100%}
+.sidebar .sidebar_block.icon-mail:before{content:url("../images/s-icon-mail.png")}
