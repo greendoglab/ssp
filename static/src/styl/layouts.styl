@@ -40,19 +40,144 @@
 .site-showcase
     height 196px
     text-align center
+    display table
+    .sc-block
+        display table-cell
+        vertical-align middle
+        .box
+            height 196px
+            overflow hidden
+            position relative
+            img
+                max-width 100%
+        &.playback
+            .box
+                width 350px
+                margin-left -40px
+                .playback_decor
+                    position absolute
+                    top 50%
+                    left 50%
+                    width 42px
+                    height 42px
+                    margin -21px 0 0 -21px
+                    background url(../images/play.png) no-repeat
 
 .site-content
     padding-top 30px
     .container
         overflow hidden
         .search_travel_openings
-            width 275px
+            width 330px
             margin-left 56px
             float left
+            overflow hidden
+            .gray_title
+                clear both
+            .links
+                width 98px
+                float left
+                .blue_link
+                    display block
+                    width 44px
+                    text-align center
+                    font-size .9em
+                    line-height 1
+                    padding 6px 0
+                    margin-bottom 6px
+                    &:nth-child(odd)
+                        float left
+                    &:nth-child(even)
+                        float right
+                .green_link
+                    text-align center
+                    display block
+                    clear both
+                    width 98px
+                    font-size .75em
+                    line-height 1.4
+                    padding 4px 0
+            .earch_by_state
+                display block
+                float left
+                width 148px
+                height 136px
+                margin-left 50px
+                background url(../images/usa_mini_map.png) no-repeat center center
+                text-align center
+                text-decoration none
+                span
+                    display inline-block
+                    margin-top 55px
+                    color #fff
+                    line-height 1.4
+                    font-size .75em
+                    margin-left -10px
         .featured_assignment
-            width 288px
-            margin-left 70px
+            width 350px
+            margin-left 60px
             float left
+            .gray_title
+                clear both
+            .block-product
+                width 100%
+                box-shadow 0 0 2px 2px rgba(232,235,236,1)
+                margin-bottom 2px
+                .box
+                    height 75px
+                    overflow hidden
+                    margin-bottom 16px
+                    img
+                        max-width 100%
+                .text_box
+                    overflow hidden
+                    box-sizing border-box
+                    padding 10px
+                    .description
+                    .apply_links
+                        width 50%
+                        float left
+                    .description
+                        line-height 1.2
+                        h4
+                        p
+                            margin 0
+                        h4
+                            font-size .85em
+                            margin-bottom 8px
+                        p
+                            font-size .75em
+                    .apply_links
+                        span.link_box
+                            display block
+                            text-align center
+                            &:nth-child(1)
+                                margin-bottom .3em
+                            a
+                                display inline-block
+                                width 100px
+                                padding .1em
 
 .site-footer
     background #8dc640
+    overflow hidden
+    color #fff
+    margin-top 2em
+    ul
+        margin 0
+        padding 0
+        li
+            list-style none
+    a
+        color #fff
+        text-decoration none
+    .footer-block
+        float left
+        width 25%
+        .foot-text
+            font-size 0.78em
+            line-height 1.4
+        &.seal
+            img
+                max-width 55%
+                margin-top .8em

@@ -3,8 +3,8 @@ padding_element = .3em .6em
 
 
 background_main = #fff
-color_text = #353535
-color_link = #ff3400
+color_text = #5a5f61
+color_link = #5a5f61
 
 inline_middle()
     display inline-block
@@ -23,13 +23,11 @@ body
     font: 100%/140% 'Varela Round', sans-serif;
     padding 0
     margin 0
-    color text_color
+    color color_text
     background background_main
 
 h1, h2, h3, h4, h5
     line-height 1
-    font-size 1.6em
-    font-family Helvetica, Arial, Tahoma
 
 a
     color link_color
@@ -59,11 +57,17 @@ input
     &:focus
         outline none
 
-// .row
-//     display table
+.blue_link
+.green_link
+.green_button
+    color #fff
+    text-decoration none
 
-// .col
-//     display table-cell
-//     vertical-align top
-//     &.half
-//         width 50%
+.blue_link
+    background #00b1af
+
+.green_link
+    background #8dc640
+
+.green_button
+    background #8dc640
