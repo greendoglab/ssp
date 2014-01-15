@@ -50,9 +50,9 @@ input:focus{outline:none}
 .site-content .container .search_travel_openings .get_mail{float:right;width:100%;margin-top:30px;position:relative;}
 .site-content .container .search_travel_openings .get_mail .inputs{overflow:hidden;}
 .site-content .container .search_travel_openings .get_mail .inputs input{float:right;}
-.site-content .container .search_travel_openings .get_mail .inputs input[type=text]{width:213px;border:1px solid #d4dcde;padding:.4em 0}
+.site-content .container .search_travel_openings .get_mail .inputs input[type=text]{width:210px;border:1px solid #d4dcde;padding:.4em 0 .3em 3px}
 .site-content .container .search_travel_openings .get_mail .inputs input[type=submit]{border:none;font-size:.9em}
-.site-content .container .search_travel_openings .get_mail a{display:inline-block;float:right;width:278px;text-align:center;margin-top:6px;padding:.1em 0}
+.site-content .container .search_travel_openings .get_mail a{display:inline-block;float:right;width:278px;text-align:center;margin-top:6px;padding:0;font-size:.9em}
 .site-content .container .search_travel_openings .get_mail:before{content:url("../images/be_first.png");position:absolute;top:-20px;left:-134px}
 .site-content .container .featured_assignment{width:350px;margin-left:60px;float:left;}
 .site-content .container .featured_assignment .gray_title{clear:both}
@@ -77,7 +77,7 @@ input:focus{outline:none}
 .site-footer .footer-block.seal img{max-width:55%;margin-top:.8em}
 .single-content{padding-right:90px;}
 .single-content p{margin-bottom:2em}
-.single-content .links a{padding:.2em .4em}
+.single-content .links a{padding:.2em .3em;font-size:.95em}
 .sidebar{width:180px;}
 .sidebar .sidebar_block{-moz-box-sizing:border-box;box-sizing:border-box;padding:.7em;position:relative;margin-bottom:2em;font-size:.8em;line-height:1.4;}
 .sidebar .sidebar_block:before{position:absolute;top:0;left:0}
@@ -86,7 +86,12 @@ input:focus{outline:none}
 .sidebar .sidebar_block.icon-important:before{content:url("../images/s-icon-important.png")}
 .sidebar .sidebar_block.icon-comment p{text-align:center}
 .sidebar .sidebar_block.icon-comment:before{content:url("../images/s-icon-comments.png")}
-.sidebar .sidebar_block.icon-mail .sign_up{margin-top:.8em;text-align:right;}
+.sidebar .sidebar_block.icon-mail{text-align:center;position:relative;padding-bottom:50px;padding-top:.8em;}
+.sidebar .sidebar_block.icon-mail .sign_up{margin-top:.8em;text-align:right;position:absolute;bottom:5px;right:7px;}
 .sidebar .sidebar_block.icon-mail .sign_up .green_link{padding:.2em .4em}
-.sidebar .sidebar_block.icon-mail input{padding:.3em;position:relative;left:-4px;width:100%}
+.sidebar .sidebar_block.icon-mail input{border:none;padding:.3em;-moz-box-sizing:border-box;box-sizing:border-box;position:absolute;left:2px;width:176px}
 .sidebar .sidebar_block.icon-mail:before{content:url("../images/s-icon-mail.png")}
+@-moz-document url-prefix(){.site-showcase .sc-block .box img{width:100%}
+.site-header .site-nav a{font-size:.8em}
+.site-content .container .search_travel_openings .get_mail .inputs input[type="text"]{width:205px;border:1px solid #d4dcde;padding:.2em 0 .2em 3px;margin-right:2px}
+}
